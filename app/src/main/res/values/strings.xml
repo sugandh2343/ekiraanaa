@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">E-Kirana</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="click_here_to_register_yourself">Click Here to Register Yourself</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialogTitle">Error</string>
+    <string name="dialogMessage">You Have not Enterred the date</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="favourites">Favourites</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="online_consult">Online Consult</string>
+    <string name="upload_medical_report">Upload Medical Report</string>
+    <string name="pending_requests">Pending Requests</string>
+    <string name="payments_history">Payments History</string>
+    <string name="my_appointments">My Appointments</string>
+    <string name="book_appointment">Book Appointment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book_appointments">Book Appointments</string>
+    <string name="consult_online">Consult Online</string>
+    <string name="this_is_hospital_name">This is Hospital Name</string>
+    <string name="consultation_with_doctors_is_easy_now">Consultation with Doctors is Easy Now</string>
+    <string name="click_for_text_consultation_24_7100">Click for Text Consultation 24/7</string>
+    <string name="click_for_text_consultation_24_7200">Click for Text Consultation 24/7</string>
+    <string name="click_for_video_consultation">Click for Video Call Consultation</string>
+    <string name="Rupee">₹</string>
+    <string name="Doctor_Detail">dr_mbbs_ms_mch_urology_is_a_famed_urologist_in_gorakhpur_he_has_been_practicing_at_purvanchal_metro_city_hospital_located_at_h_n_singh_chowk_medical_road_gorakhpur_he_is_available_at_the_hospital_from_monday_to_saturday_timing_09_00_am_to_11_00_pm_he_is_specialized_and_experienced_in_treating_all_types_of_urological_diseases_he_specializes_in_laser_and_endoscopy_technology_for_different_procedures_some_of_the_most_common_urological_diseases_he_treats_are_kidney_kidney_stone_prostate_urine_problems_urological_cancer_male_infertility_nigth_fall_kidney_cyst_av_fistula_surgery_urethral_stricture_renal_transplant_etc_you_can_book_appointment_and_consult_online_with_dr_arun_kumar_dwivedi_a_top_urologist_in_gorakhpur</string>
+    <string name="action_favorite">Favourite</string>
+</resources>

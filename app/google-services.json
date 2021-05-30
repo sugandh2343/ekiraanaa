@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546041041356",
+    "project_id": "ekiraanaa",
+    "storage_bucket": "ekiraanaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546041041356:android:b8d0fc66762cd6cfc84d69",
+        "android_client_info": {
+          "package_name": "com.example.ekiraanaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546041041356-db1npejgtf2qofpdfvf1vmt6np2oq9pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGVVHAIOQxDP7Vx6SNObhRQkSiHwCE_w4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546041041356-db1npejgtf2qofpdfvf1vmt6np2oq9pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray01"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/txt_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Title"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/txt_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_item_title"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="@color/colorBlack"/>
+    <TextView
+        android:id="@+id/txt_product_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_item_title"
+        android:gravity="center"
+        android:layout_toEndOf="@+id/txt_item_price"
+        android:layout_marginLeft="10dp"
+        android:text="Product Quantity"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@+id/txt_item_price" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_item_title"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/txt_item_each_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="10/Kg"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/txt_item_quantity_ordered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:text="[2]"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt_item_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:layout_below="@id/txt_item_title"
+        android:textColor="@color/colorRed"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/txt_item_remove"
+        android:background="@color/colorGreen"/>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_shop"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_store"
+            android:layout_marginRight="5dp" />
+        <ImageView
+            android:id="@+id/img_online"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/shape_circle_01"/>
+        <TextView
+            android:id="@+id/txt_shop_closed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/img_next"
+            android:padding="5dp"
+            android:text="Closed"
+            android:textColor="#79FF0000"
+            android:textSize="10sp"
+            android:background="@drawable/shape_rect_06"
+            android:layout_toLeftOf="@+id/img_next" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/img_shop"
+            android:layout_toRightOf="@+id/img_shop"
+            android:layout_toStartOf="@+id/img_next"
+            android:layout_toLeftOf="@+id/img_next">
+
+            <TextView
+                android:id="@+id/txt_shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rect_05"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:text="Shop Open"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"/>
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="@color/colorBlack"/>
+            <TextView
+                android:id="@+id/txt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Address"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorBlack"/>
+            <RatingBar
+                android:id="@+id/rating_bar_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_gravity="end"
+                android:numStars="5"
+                android:rating="3.5"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/img_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_next"
+            android:layout_marginRight="5dp" />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_marginBottom="2dp"
+    app:contentPadding="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:text="12345"/>
+        <TextView
+            android:id="@+id/txt_order_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/img_next"
+            android:text="dd/mm/yyyy"
+            android:layout_toLeftOf="@+id/img_next" />
+        <TextView
+            android:id="@+id/txt_total_item_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_below="@+id/txt_order_id"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_total_item_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Items"
+            android:layout_below="@+id/txt_order_id"
+            android:layout_toRightOf="@+id/txt_total_item_value"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/txt_total_amt_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_total_item_label"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_total_amt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/txt_total_item_label"
+            android:layout_toRightOf="@+id/txt_total_amt_label"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_order_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_total_item_label"
+            android:layout_toStartOf="@id/img_next"
+            android:layout_toLeftOf="@id/img_next"
+            android:text="In Progress"
+            android:textColor="@color/colorGreen"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/img_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

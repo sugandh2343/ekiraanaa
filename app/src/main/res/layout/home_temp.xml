@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GROCERRY DELIVERY"
+                android:background="@drawable/shape_rect01"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEDICINES DELIVERY"
+                android:background="@drawable/shape_rect01"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="4"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STATIONARY DELIVERY"
+                android:background="@drawable/shape_rect01"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COVID ESSENTIALS DELIVERY"
+                android:background="@drawable/shape_rect01"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:padding="7dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

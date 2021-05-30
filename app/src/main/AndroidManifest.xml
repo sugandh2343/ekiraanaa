@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ndroid="http://schemas.android.com/apk/distribution"
+    package="com.example.ekiraanaa">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGET" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Activity.AddToCartActivity"></activity>
+        <activity
+            android:name=".Activity.ShopDetailsActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Activity.EditProductActivity" />
+        <activity android:name=".Activity.AddProductActivity" />
+        <activity android:name=".Activity.EditProfileSellerActivity" />
+        <activity android:name=".Activity.EditProfileUserActivity" />
+        <activity android:name=".Activity.MainUserActivity" />
+        <activity android:name=".Activity.MainSellerActivity" />
+        <activity android:name=".Activity.ForgotPswrdActivity" />
+        <activity android:name=".Activity.SellerRegistrationActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.SpashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
